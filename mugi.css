@@ -1,0 +1,476 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+
+* {
+    font-family: Arial;
+    
+}
+body {
+     margin: 0;
+    padding: 0;
+    padding-bottom: 300px;
+}
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+nav ul,
+nav li
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul {
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+    font-family: arial;
+    border-radius: 20px;
+}
+nav .mugi a,
+nav a:hover {
+    background-color: red;
+    color: white;
+}
+#banner {
+    background: url(../images/fundo.jpg);
+    display: flex;
+    background-position: center;
+    background-size: auto;
+    height: 670px;
+    position: relative;
+    
+}
+#banner ul {
+    list-style: none;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+}
+.img1 {
+    max-width: 250px;
+    min-height: 670px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.img2 {
+    max-width: 250px;
+    min-height: 670px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.column {
+    flex-direction: column;
+}
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+.banner_headline h1 {
+    color: white;
+    font-size: 70px;
+    text-shadow: 0px 1px 0px gray;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+.banner_headline h2 {
+    color: white;
+    text-shadow: 0px 1px 0px gray;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+#geral {
+    display: flex;
+    justify-content: center;
+}
+#geral section {
+    flex: 10;
+}
+#geral aside {
+    flex: 1;
+}
+.widget_tittle {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_tittle_text{
+    font-size: 21px;
+    font-weight: bold;
+    color: black;
+}
+.widget_tittle_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #ffe01f;
+    margin-top: 10px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+article .order {
+    display: flex;
+}
+article .thumb {
+    background:url(https://nerdhits.com.br/wp-content/uploads/2022/06/one-piece-luffy-1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func {
+    background-color: #82160c;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number {
+    background-color: #c0291e;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .func2 {
+    background-color: #0c9907;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number2 {
+    background-color: #1ec034;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb2 {
+    background:url(https://criticalhits.com.br/wp-content/uploads/2021/10/Zoro.jpg);
+    background-size:cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .thumb3 {
+    background:url(https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2021/11/nami-one-piece-zoro.jpg?resize=950%2C534&ssl=1);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func3 {
+    background-color: #c3680d;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number3 {
+    background-color: #ea862f;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb4 {
+    background:url(https://i.pinimg.com/originals/5e/1f/04/5e1f045820e3024c5a5c2730a02b37a2.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: rgb(128, 128, 128);
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func4 {
+    background-color: #6f2403;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number4 {
+    background-color: #8c4d0e;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb5 {
+    background:url(https://criticalhits.com.br/wp-content/uploads/2021/01/Going_Merry_Original.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func5 {
+    background-color: #3b3b3b;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number5 {
+    background-color: #939393;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb6 {
+    background:url(https://ovicio.com.br/wp-content/uploads/2022/02/20220215-ovicio-sanji-one-piece-preview-730x365.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func6 {
+    background-color: #dabb43;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number6 {
+    background-color: #ebe41c;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb7 {
+    background:url(https://criticalhits.com.br/wp-content/uploads/2022/07/chopper-910x517.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func7 {
+    background-color: #118ca4;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number7 {
+    background-color: #22e7ee;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb8 {
+    background:url(https://img1.ak.crunchyroll.com/i/spire2/cbfbcca44c023cb02a1c6f98a14aa0a11644116719_full.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func8 {
+    background-color: #3d0c82;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number8 {
+    background-color: #9319eb;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb9 {
+    background:url(https://blogger.googleusercontent.com/img/a/AVvXsEg76rWWBGCyEBPBkctmL4F2BI9yiSSR3Eu1GOPvlGdWvPHQKdduh4dMDXx6cVNZA-wMzqRUN-oA0GIyjPgZe4KFT37IfIPtgXV9rt9LG8I_bHYaAR9SQwZpbPWTI0ExLcPX4Abi9VLKbNuchFAi74-FMNwMzdA31fmAVff9lZbgJTT-Fbw_ZF_viDwD=w1200-h630-p-k-no-nu);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func9 {
+    background-color: #071165;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number9 {
+    background-color: #2431e8;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb10 {
+    background:url(https://criticalhits.com.br/wp-content/uploads/2022/05/Thousand-Sunny.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func10 {
+    background-color: #82530c;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number10 {
+    background-color: #e7cc1f;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb11 {
+    background:url(http://pm1.narvii.com/6287/4fea5c8c6bc51f7a5e9da7334059b3068f0cd111_00.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func11 {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number11 {
+    background-color: #535353;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb12 {
+    background:url(https://criticalhits.com.br/wp-content/uploads/2018/03/jinbe-1064437-1280x0.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func12 {
+    background-color: #127090;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number12 {
+    background-color: #29d4f3;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+article .thumb13 {
+    background:url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b60b118d-20f5-4d15-86f9-bd7010880ff0/detdvty-aa34fb34-1ef5-4e09-b2d4-973d553612c6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2I2MGIxMThkLTIwZjUtNGQxNS04NmY5LWJkNzAxMDg4MGZmMFwvZGV0ZHZ0eS1hYTM0ZmIzNC0xZWY1LTRlMDktYjJkNC05NzNkNTUzNjEyYzYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.yOIvsUZ6eo6heV3wkvsVpykXgWPHvroG13M6x28QZvI);
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+}
+article .func13 {
+    background-color: #a5169e;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+}
+article .number13 {
+    background-color: #f029f3;
+    color: white;
+    padding: 10px;
+    font-size: 10 px;
+    margin-right: 3px;
+}
+
+article .name {
+    font-size: 23px;
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+article .resume {
+    font-size: 14px;
+    color: rgb(28, 28, 28);
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#widget .bloc {
+    margin-top: 30px;
+    background-color: gray;
+    width: 200px;
+}
+#widget .bloc img {
+    width: 200px;
+}
+.widget_body2 {
+}
+#widget {
+    font-size: 21px;
+}
